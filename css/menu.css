@@ -1,0 +1,97 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    min-height: 100vh;
+    padding: 0px 7%;
+}
+
+
+.menu-title{
+    text-align: center;
+    background-image: linear-gradient(90deg,#93bf34, #0d0d0d, #ff1500); /* Degradê de vermelho para azul */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.menu-subtitle{
+    color: #0d0d0d;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#dishes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.dish{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    gap: 20px;
+    width: 25%;
+    padding: 20px;
+    /* background-color: #fff; */
+    background-image: linear-gradient(90deg,#93bf34 0%, #fff, #f25041 100%);
+    /* border: 1px solid #0d0d0d; */
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.dish-heart{
+    position: absolute;
+    display: flex;
+    /* background-color: #F2A03D; */
+    background-image: linear-gradient(135deg, #fff 0%, #F2A03D 100%);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 0px 37.5px 0px 42.5px;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+}
+
+.dish img{
+    margin-top: 50px;
+}
+
+.fa-solid.fa-heart{
+    color: #ef1c09;
+}
+
+.dish h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.dish span{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#dish-price{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.fa-solid.fa-star{
+    color: #ffb700;
+}
+
+#menu button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+

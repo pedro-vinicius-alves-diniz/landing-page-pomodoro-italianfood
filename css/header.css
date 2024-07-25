@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+header{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family: "Poppins", sans-serif;
+    height: 80px;
+    /* border: 1px solid red; */
+    background-image: linear-gradient(90deg,#93bf34 0%, #fff, #f25041 100%);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+#navbar{
+    display: flex;
+    width: 100%;    
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+#header-sections{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-itens{
+    font-size: 20px;
+}
+
+.header-itens a{
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+#header-logo{
+    font-size: 30px;
+    color: red;
+}
+
+#header-logo span{
+    font-family: "Playwrite CL", cursive;
+    /* color: #E8533A; */
+    font-weight: bold;
+    background-image: linear-gradient(130deg,#F25041, #F26457, #F2A03D ); /* Degradê de vermelho para azul */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

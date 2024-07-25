@@ -1,0 +1,67 @@
+#home{
+    width: 100%;
+    min-height: calc(100% - 80px);
+    padding: 0px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+#home-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#home-content h1{
+    font-size: 3rem;
+    color: #0d0d0d;
+    font-weight: bold;
+}
+
+#home-content p{
+    font-size: 1.3rem;
+    /* color: #0d0d0d; */
+    font-weight: bold;
+    background-image: linear-gradient(130deg,#0d0d0d, #F25041); /* Degradê de vermelho para azul */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#socialmedia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #0d0d0d;
+    background-color: #defaa3;
+    background-image: linear-gradient(90deg,#9abb54 0%, #fff, #ff1803 100%);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+#socialmedia a:hover{
+    box-shadow: 0px 0px 12px 4px #fff;
+}
+
+#home-banner{
+    width: 50%;
+}
+
+.italia{
+    background-image: linear-gradient(90deg,#93bf34,#000, #ff1500); /* Degradê de vermelho para azul */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
